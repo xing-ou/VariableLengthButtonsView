@@ -30,6 +30,7 @@
 >                 andTargetEventSetup targetEventSetup: ((UIButton)->())?)
 
 
+
 ```
      示例代码：
      let buttonTitles = ["天涯明月刀","御龙在天","我的世界","炉石","英雄联盟", "坦克世界","酥酥"]
