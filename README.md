@@ -24,11 +24,10 @@
 
 ```
 **方法**
-```
- func addButtons(withTitleArray titleArray:[String],
-        andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
-        andTargetEventSetup targetEventSetup: ((UIButton)->())?)
-```
+
+> func addButtons(withTitleArray titleArray:[String],
+>                 andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
+>                 andTargetEventSetup targetEventSetup: ((UIButton)->())?)
 
 
 ```
@@ -58,11 +57,10 @@
 ```
 
 
-```
-func appendButton(withTitle title:String ,
-        andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
-        andTargetEventSetup targetEventSetup: ((UIButton)->())?)
-```
+> func appendButton(withTitle title:String ,
+>                   andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
+>                   andTargetEventSetup targetEventSetup: ((UIButton)->())?)
+
 
 
 ```
@@ -91,10 +89,8 @@ func appendButton(withTitle title:String ,
 ```
 
 
-```
-func removeAllBtns()
-```
 
+>  func removeAllBtns()
 
 ```
 //删除所有btn
