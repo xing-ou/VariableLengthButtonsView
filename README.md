@@ -24,10 +24,13 @@
 
 ```
 **方法**
+```
  func addButtons(withTitleArray titleArray:[String],
         andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
         andTargetEventSetup targetEventSetup: ((UIButton)->())?)
-    
+```
+
+
 ```
      示例代码：
      let buttonTitles = ["天涯明月刀","御龙在天","我的世界","炉石","英雄联盟", "坦克世界","酥酥"]
@@ -53,9 +56,14 @@
         print("cliked \(sender.titleLabel?.text)")
      }
 ```
+
+
+```
 func appendButton(withTitle title:String ,
         andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
         andTargetEventSetup targetEventSetup: ((UIButton)->())?)
+```
+
 
 ```
 示例代码：
@@ -81,7 +89,13 @@ func appendButton(withTitle title:String ,
         print("cliked \(sender.titleLabel?.text)")
      }
 ```
+
+
+```
 func removeAllBtns()
+```
+
+
 ```
 //删除所有btn
 self.buttonsview.removeAllBtns()
