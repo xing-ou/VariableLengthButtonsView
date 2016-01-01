@@ -11,7 +11,7 @@
 
 #变量和方法
 **变量**
-```
+```swift
    @IBInspectable var fontSize :CGFloat = 20
     ///每行默认的相对于上一行的间隔， 默认10
    @IBInspectable var yOffset :CGFloat = 10
@@ -25,14 +25,15 @@
 ```
 **方法**
 
-> func addButtons(withTitleArray titleArray:[String],
->                 andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
->                 andTargetEventSetup targetEventSetup: ((UIButton)->())?)
-
-
-
+```swift
+ func addButtons(withTitleArray titleArray:[String],
+                 andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
+                 andTargetEventSetup targetEventSetup: ((UIButton)->())?)
 ```
-     示例代码：
+
+
+```swift
+     //示例代码：
      let buttonTitles = ["天涯明月刀","御龙在天","我的世界","炉石","英雄联盟", "坦克世界","酥酥"]
      buttonsview.addButtons(withTitleArray: buttonTitles,
      andAdditonButtonAttributeSetup: {
@@ -57,17 +58,15 @@
      }
 ```
 
-
-> func appendButton(withTitle title:String ,
->
->                   andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
->
->                   andTargetEventSetup targetEventSetup: ((UIButton)->())?)
-
-
-
 ```
-示例代码：
+ func appendButton(withTitle title:String ,
+                   andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
+                   andTargetEventSetup targetEventSetup: ((UIButton)->())?)
+```
+
+
+```swift
+     //示例代码：
      self.buttonsview.appendButton(withTitle: title, 
         andAdditonButtonAttributeSetup: {
             btn in
@@ -92,10 +91,11 @@
 ```
 
 
-
->  func removeAllBtns()
-
 ```
+  func removeAllBtns()
+```
+
+```swift
 //删除所有btn
 self.buttonsview.removeAllBtns()
 ```
