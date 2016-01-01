@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8687512B1C36614C00481FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687512A1C36614C00481FE0 /* AppDelegate.swift */; };
+		8687512D1C36614C00481FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687512C1C36614C00481FE0 /* ViewController.swift */; };
+		868751301C36614C00481FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8687512E1C36614C00481FE0 /* Main.storyboard */; };
+		868751321C36614C00481FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868751311C36614C00481FE0 /* Assets.xcassets */; };
+		868751351C36614C00481FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868751331C36614C00481FE0 /* LaunchScreen.storyboard */; };
+		868751401C36614C00481FE0 /* VariableLengthButtonsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687513F1C36614C00481FE0 /* VariableLengthButtonsViewTests.swift */; };
+		8687514B1C36614C00481FE0 /* VariableLengthButtonsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687514A1C36614C00481FE0 /* VariableLengthButtonsViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8687513C1C36614C00481FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8687511F1C36614C00481FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868751261C36614C00481FE0;
+			remoteInfo = VariableLengthButtonsView;
+		};
+		868751471C36614C00481FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8687511F1C36614C00481FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868751261C36614C00481FE0;
+			remoteInfo = VariableLengthButtonsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		868751271C36614C00481FE0 /* VariableLengthButtonsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariableLengthButtonsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8687512A1C36614C00481FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8687512C1C36614C00481FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8687512F1C36614C00481FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		868751311C36614C00481FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		868751341C36614C00481FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		868751361C36614C00481FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8687513B1C36614C00481FE0 /* VariableLengthButtonsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariableLengthButtonsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8687513F1C36614C00481FE0 /* VariableLengthButtonsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableLengthButtonsViewTests.swift; sourceTree = "<group>"; };
+		868751411C36614C00481FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868751461C36614C00481FE0 /* VariableLengthButtonsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariableLengthButtonsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8687514A1C36614C00481FE0 /* VariableLengthButtonsViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableLengthButtonsViewUITests.swift; sourceTree = "<group>"; };
+		8687514C1C36614C00481FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868751241C36614C00481FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868751381C36614C00481FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868751431C36614C00481FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8687511E1C36614C00481FE0 = {
+			isa = PBXGroup;
+			children = (
+				868751291C36614C00481FE0 /* VariableLengthButtonsView */,
+				8687513E1C36614C00481FE0 /* VariableLengthButtonsViewTests */,
+				868751491C36614C00481FE0 /* VariableLengthButtonsViewUITests */,
+				868751281C36614C00481FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		868751281C36614C00481FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868751271C36614C00481FE0 /* VariableLengthButtonsView.app */,
+				8687513B1C36614C00481FE0 /* VariableLengthButtonsViewTests.xctest */,
+				868751461C36614C00481FE0 /* VariableLengthButtonsViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		868751291C36614C00481FE0 /* VariableLengthButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				8687512A1C36614C00481FE0 /* AppDelegate.swift */,
+				8687512C1C36614C00481FE0 /* ViewController.swift */,
+				8687512E1C36614C00481FE0 /* Main.storyboard */,
+				868751311C36614C00481FE0 /* Assets.xcassets */,
+				868751331C36614C00481FE0 /* LaunchScreen.storyboard */,
+				868751361C36614C00481FE0 /* Info.plist */,
+			);
+			path = VariableLengthButtonsView;
+			sourceTree = "<group>";
+		};
+		8687513E1C36614C00481FE0 /* VariableLengthButtonsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8687513F1C36614C00481FE0 /* VariableLengthButtonsViewTests.swift */,
+				868751411C36614C00481FE0 /* Info.plist */,
+			);
+			path = VariableLengthButtonsViewTests;
+			sourceTree = "<group>";
+		};
+		868751491C36614C00481FE0 /* VariableLengthButtonsViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8687514A1C36614C00481FE0 /* VariableLengthButtonsViewUITests.swift */,
+				8687514C1C36614C00481FE0 /* Info.plist */,
+			);
+			path = VariableLengthButtonsViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		868751261C36614C00481FE0 /* VariableLengthButtonsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8687514F1C36614C00481FE0 /* Build configuration list for PBXNativeTarget "VariableLengthButtonsView" */;
+			buildPhases = (
+				868751231C36614C00481FE0 /* Sources */,
+				868751241C36614C00481FE0 /* Frameworks */,
+				868751251C36614C00481FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VariableLengthButtonsView;
+			productName = VariableLengthButtonsView;
+			productReference = 868751271C36614C00481FE0 /* VariableLengthButtonsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8687513A1C36614C00481FE0 /* VariableLengthButtonsViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868751521C36614C00481FE0 /* Build configuration list for PBXNativeTarget "VariableLengthButtonsViewTests" */;
+			buildPhases = (
+				868751371C36614C00481FE0 /* Sources */,
+				868751381C36614C00481FE0 /* Frameworks */,
+				868751391C36614C00481FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8687513D1C36614C00481FE0 /* PBXTargetDependency */,
+			);
+			name = VariableLengthButtonsViewTests;
+			productName = VariableLengthButtonsViewTests;
+			productReference = 8687513B1C36614C00481FE0 /* VariableLengthButtonsViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		868751451C36614C00481FE0 /* VariableLengthButtonsViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868751551C36614C00481FE0 /* Build configuration list for PBXNativeTarget "VariableLengthButtonsViewUITests" */;
+			buildPhases = (
+				868751421C36614C00481FE0 /* Sources */,
+				868751431C36614C00481FE0 /* Frameworks */,
+				868751441C36614C00481FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868751481C36614C00481FE0 /* PBXTargetDependency */,
+			);
+			name = VariableLengthButtonsViewUITests;
+			productName = VariableLengthButtonsViewUITests;
+			productReference = 868751461C36614C00481FE0 /* VariableLengthButtonsViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8687511F1C36614C00481FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "苟欣";
+				TargetAttributes = {
+					868751261C36614C00481FE0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8687513A1C36614C00481FE0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 868751261C36614C00481FE0;
+					};
+					868751451C36614C00481FE0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 868751261C36614C00481FE0;
+					};
+				};
+			};
+			buildConfigurationList = 868751221C36614C00481FE0 /* Build configuration list for PBXProject "VariableLengthButtonsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8687511E1C36614C00481FE0;
+			productRefGroup = 868751281C36614C00481FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				868751261C36614C00481FE0 /* VariableLengthButtonsView */,
+				8687513A1C36614C00481FE0 /* VariableLengthButtonsViewTests */,
+				868751451C36614C00481FE0 /* VariableLengthButtonsViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		868751251C36614C00481FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868751351C36614C00481FE0 /* LaunchScreen.storyboard in Resources */,
+				868751321C36614C00481FE0 /* Assets.xcassets in Resources */,
+				868751301C36614C00481FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868751391C36614C00481FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868751441C36614C00481FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868751231C36614C00481FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8687512D1C36614C00481FE0 /* ViewController.swift in Sources */,
+				8687512B1C36614C00481FE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868751371C36614C00481FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868751401C36614C00481FE0 /* VariableLengthButtonsViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868751421C36614C00481FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8687514B1C36614C00481FE0 /* VariableLengthButtonsViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8687513D1C36614C00481FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868751261C36614C00481FE0 /* VariableLengthButtonsView */;
+			targetProxy = 8687513C1C36614C00481FE0 /* PBXContainerItemProxy */;
+		};
+		868751481C36614C00481FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868751261C36614C00481FE0 /* VariableLengthButtonsView */;
+			targetProxy = 868751471C36614C00481FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8687512E1C36614C00481FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8687512F1C36614C00481FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		868751331C36614C00481FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868751341C36614C00481FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8687514D1C36614C00481FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8687514E1C36614C00481FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		868751501C36614C00481FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VariableLengthButtonsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owner.gouxin.VariableLengthButtonsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		868751511C36614C00481FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VariableLengthButtonsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owner.gouxin.VariableLengthButtonsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		868751531C36614C00481FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VariableLengthButtonsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owner.gouxin.VariableLengthButtonsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VariableLengthButtonsView.app/VariableLengthButtonsView";
+			};
+			name = Debug;
+		};
+		868751541C36614C00481FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VariableLengthButtonsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owner.gouxin.VariableLengthButtonsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VariableLengthButtonsView.app/VariableLengthButtonsView";
+			};
+			name = Release;
+		};
+		868751561C36614C00481FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VariableLengthButtonsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owner.gouxin.VariableLengthButtonsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VariableLengthButtonsView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		868751571C36614C00481FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VariableLengthButtonsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owner.gouxin.VariableLengthButtonsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VariableLengthButtonsView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		868751221C36614C00481FE0 /* Build configuration list for PBXProject "VariableLengthButtonsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8687514D1C36614C00481FE0 /* Debug */,
+				8687514E1C36614C00481FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8687514F1C36614C00481FE0 /* Build configuration list for PBXNativeTarget "VariableLengthButtonsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868751501C36614C00481FE0 /* Debug */,
+				868751511C36614C00481FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		868751521C36614C00481FE0 /* Build configuration list for PBXNativeTarget "VariableLengthButtonsViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868751531C36614C00481FE0 /* Debug */,
+				868751541C36614C00481FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		868751551C36614C00481FE0 /* Build configuration list for PBXNativeTarget "VariableLengthButtonsViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868751561C36614C00481FE0 /* Debug */,
+				868751571C36614C00481FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8687511F1C36614C00481FE0 /* Project object */;
+}
