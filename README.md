@@ -1,7 +1,7 @@
 # VariableLengthButtonsView
 将 字符串作为btn的title,然后添加到view中
 #snapshot
-![snapshot.png](https://github.com/xing-ou/VariableLengthButtonsView/blob/master/snapshot.png)
+![snapshot.png](https://github.com/xing-ou/VariableLengthButtonsView/blob/master/snapshot.png) ![snapshot2.png](https://github.com/xing-ou/VariableLengthButtonsView/blob/master/snapshot2.png)
 #加入项目
 >拷贝 **VariableLengthButtonsView** 到你的项目中，在storyboard上建一个普通的view,设置其类为VariableLengthButtonsView
 >然后在右侧属性栏中，确定btn字体大小(fontsize)， 行间距(yoffset)， 左边预留宽度（leftOffset）,右边预留宽度(righitoffset)，

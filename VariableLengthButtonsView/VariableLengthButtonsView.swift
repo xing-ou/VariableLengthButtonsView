@@ -11,16 +11,16 @@ import UIKit
 class VariableLengthButtonsView: UIView {
     
     // MARK : - 可以在storyboard中通过面板设置的值
-    ///需要显示的btn的字体大小,默认 fontsize为17
+    ///需要显示的btn的字体大小,默认 fontsize为20
    @IBInspectable var fontSize :CGFloat = 20
-    ///每行默认的相对于上一行的间隔， 默认22
-   @IBInspectable var yOffset :CGFloat = 22
-    ///所有btn距离左边的最小offset
-   @IBInspectable var leftOffset :CGFloat = 30
-    ///所有btn距离右边的边的最小offset
-   @IBInspectable var rightOffset :CGFloat = 0
-    ///一行中item的间隔
-   @IBInspectable var itemOffset :CGFloat = 20
+    ///每行默认的相对于上一行的间隔， 默认10
+   @IBInspectable var yOffset :CGFloat = 10
+    ///所有btn距离左边的最小offset，默认10
+   @IBInspectable var leftOffset :CGFloat = 10
+    ///所有btn距离右边的边的最小offset，默认10
+   @IBInspectable var rightOffset :CGFloat = 10
+    ///一行中item的间隔，默认15
+   @IBInspectable var itemOffset :CGFloat = 15
     ///记录当前要添加的btn的x y坐标，以及x y方向上还有多少剩余空间
     private var isCurrentValueSeted = false
     private var currentAvaliableYlength :CGFloat = 0
