@@ -14,6 +14,7 @@
 		868751351C36614C00481FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868751331C36614C00481FE0 /* LaunchScreen.storyboard */; };
 		868751401C36614C00481FE0 /* VariableLengthButtonsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687513F1C36614C00481FE0 /* VariableLengthButtonsViewTests.swift */; };
 		8687514B1C36614C00481FE0 /* VariableLengthButtonsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687514A1C36614C00481FE0 /* VariableLengthButtonsViewUITests.swift */; };
+		868751591C36617A00481FE0 /* VariableLengthButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868751581C36617A00481FE0 /* VariableLengthButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		868751461C36614C00481FE0 /* VariableLengthButtonsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariableLengthButtonsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8687514A1C36614C00481FE0 /* VariableLengthButtonsViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableLengthButtonsViewUITests.swift; sourceTree = "<group>"; };
 		8687514C1C36614C00481FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868751581C36617A00481FE0 /* VariableLengthButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariableLengthButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				868751311C36614C00481FE0 /* Assets.xcassets */,
 				868751331C36614C00481FE0 /* LaunchScreen.storyboard */,
 				868751361C36614C00481FE0 /* Info.plist */,
+				868751581C36617A00481FE0 /* VariableLengthButtonsView.swift */,
 			);
 			path = VariableLengthButtonsView;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				8687512D1C36614C00481FE0 /* ViewController.swift in Sources */,
 				8687512B1C36614C00481FE0 /* AppDelegate.swift in Sources */,
+				868751591C36617A00481FE0 /* VariableLengthButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

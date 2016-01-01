@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VariableLengthButtonsView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,74 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pZa-OO-Hdj" customClass="VariableLengthButtonsView" customModule="VariableLengthButtonsView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="235" width="600" height="198"/>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.92941176470588238" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="198" id="PVi-ho-DYU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="yOffset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftOffset">
+                                        <real key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightOffset">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="itemOffset">
+                                        <real key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCg-I3-GAe">
+                                <rect key="frame" x="285" y="124" width="30" height="30"/>
+                                <state key="normal" title="添加"/>
+                                <connections>
+                                    <action selector="appendButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2mq-XJ-IhC"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入你想添加的btn名称,然后点击添加" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wsi-zm-KDe">
+                                <rect key="frame" x="20" y="184" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Dd9-fB-OG4"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kM4-tp-erU">
+                                <rect key="frame" x="474" y="124" width="66" height="30"/>
+                                <state key="normal" title="removeall"/>
+                                <connections>
+                                    <action selector="removeAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RuP-gR-f8d"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="kM4-tp-erU" secondAttribute="trailing" constant="40" id="32I-J1-9F7"/>
+                            <constraint firstItem="Wsi-zm-KDe" firstAttribute="top" secondItem="fCg-I3-GAe" secondAttribute="bottom" constant="30" id="4gZ-lS-SJJ"/>
+                            <constraint firstItem="pZa-OO-Hdj" firstAttribute="top" secondItem="Wsi-zm-KDe" secondAttribute="bottom" constant="21" id="CRn-RK-Xud"/>
+                            <constraint firstItem="Wsi-zm-KDe" firstAttribute="top" secondItem="kM4-tp-erU" secondAttribute="bottom" constant="30" id="FdA-Oo-FUc"/>
+                            <constraint firstItem="Wsi-zm-KDe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OBI-lT-mxC"/>
+                            <constraint firstItem="pZa-OO-Hdj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Pxp-AJ-YJd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wsi-zm-KDe" secondAttribute="trailing" id="VfA-DJ-tHS"/>
+                            <constraint firstAttribute="trailing" secondItem="pZa-OO-Hdj" secondAttribute="trailing" id="ZHN-dz-D5S"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pZa-OO-Hdj" secondAttribute="bottom" constant="167" id="dx6-0C-lhQ"/>
+                            <constraint firstItem="fCg-I3-GAe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="goR-g8-4ZV"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addbtn" destination="fCg-I3-GAe" id="Mct-N2-Ndy"/>
+                        <outlet property="buttonsview" destination="pZa-OO-Hdj" id="Z3i-cB-Zwg"/>
+                        <outlet property="textfield" destination="Wsi-zm-KDe" id="2Tf-1c-WwI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1869" y="237"/>
         </scene>
     </scenes>
 </document>
