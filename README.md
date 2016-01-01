@@ -58,7 +58,9 @@
 
 
 > func appendButton(withTitle title:String ,
+>
 >                   andAdditonButtonAttributeSetup btnSetup:((UIButton)->())?,
+>
 >                   andTargetEventSetup targetEventSetup: ((UIButton)->())?)
 
 
